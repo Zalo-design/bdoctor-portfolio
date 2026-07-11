@@ -28,6 +28,8 @@ Client (React web / Android)  ->  REST API (Node/Express, JWT + 2FA)  ->  MySQL
                         WhatsApp Cloud API · Mercado Pago · Google OAuth/Calendar · AI
 ```
 
+📄 **Full architecture write-up:** [ARCHITECTURE.md](./ARCHITECTURE.md)
+
 ## Security (a core differentiator — see `samples/`)
 - **Strict per-organization data isolation** — every query is scoped; no cross-tenant access.
 - **JWT authentication + optional TOTP 2FA**, constant-time token checks, dedicated session handling.
